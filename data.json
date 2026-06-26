@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Create professional resumes with customizable templates.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume creation with premium templates and AI suggestions.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "200+ templates",
+      "AI content suggestions",
+      "Unlimited downloads"
+    ],
+    "icon": "Award"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Website Kit",
+    "description": "Launch a personal portfolio website in minutes.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Responsive design",
+      "Custom domain support",
+      "SEO optimized"
+    ],
+    "icon": "Globe"
+  },
+  {
+    "id": 4,
+    "name": "Career Growth Plan",
+    "description": "Track goals and build a roadmap for career success.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Goal tracking",
+      "Progress analytics",
+      "Career insights"
+    ],
+    "icon": "TrendingUp"
+  },
+  {
+    "id": 5,
+    "name": "Interview Preparation Suite",
+    "description": "Practice interviews with real-world questions and feedback.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Mock interviews",
+      "AI feedback",
+      "Question bank"
+    ],
+    "icon": "MessageSquare"
+  },
+
+   
+  {
+    "id": 7,
+    "name": "Freelancer Toolkit",
+    "description": "Everything needed to manage freelance projects efficiently.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Invoice generator",
+      "Client management",
+      "Project tracking"
+    ],
+    "icon": "Briefcase"
+  }
+]
