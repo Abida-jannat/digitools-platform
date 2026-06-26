@@ -1,6 +1,6 @@
 
 import Cart from "../../assets/Icon (Stroke).png";
-const Navbar = () => {
+const Navbar = ({cartCount}) => {
   
   return (
     <>
@@ -10,7 +10,7 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold text-violet-600">
           DigiTools
           </h1>
-          
+           
         <ul className="hidden md:flex items-center gap-6  text-gray-700 text-xs">
           <li><a href="">Products</a></li>
           <li><a href="">Features</a></li>
@@ -20,16 +20,27 @@ const Navbar = () => {
         </ul>
 
           <div className="flex items-center gap-6">
-           <img src={Cart} alt="" />
 
-          <button className="text-sm font-medium">
-            Login
-          </button>
+              {/* Cart Icon */}
+              <div className="relative cursor-pointer">
 
-          <button className="bg-violet-600 text-white px-4 py-1 rounded-full text-sm font-medium hover:bg-violet-700 transition">
-            Get Started
-          </button>
-        </div>
+              <img src={Cart} alt="Cart" className="w-7 h-7" />
+              
+                <span className="absolute -top-2 -right-2 bg-gray-800 text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-semibold">
+               {cartCount}
+              </span>
+
+            </div>
+
+           <button className="text-sm font-medium">
+                Login
+            </button>
+
+           <button className="bg-violet-600 text-white px-4 py-1 rounded-full text-sm font-medium hover:bg-violet-700 transition">
+           Get Started
+            </button>
+
+            </div>
 
       </div>
     </nav>
